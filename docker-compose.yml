@@ -1,0 +1,6 @@
+services:
+  api-flask:
+    build: .
+    image: flask-ann-simple:latest
+    ports:
+      - "5000:5000"
